@@ -29,4 +29,9 @@ public interface BookRepositoryInterface {
     Book getBookByISBN(Long isbn);
 
     // TODO: add other operations here!
+    
+  
+    void removeBook(Long isbn);
+    
+    boolean getIsbn(Long isbn);
 }
